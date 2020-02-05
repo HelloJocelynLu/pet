@@ -7,6 +7,7 @@ The state values would slowly drop as time goes by, you can change the speed in 
 
 # Installation
 > git clone https://github.com/HelloJocelynLu/pet.git
+<br>
 > python setup.py install
 
 # Setup
@@ -16,26 +17,39 @@ First we need to generate a new pet:
 # Take care of your pet
 * Feed your pet (All following commands are equivalent)
 	> pet feed
+	<br>
 	> pet eat
+	<br>
 	> pet food
+	<br>
 	> pet fd
 * Clean your pet
 	> pet clean
+	<br>
 	> pet wash
+	<br>
 	> pet bath
+	<br>
 	> pet bathe
+	<br>
 	> pet cln
 * Play with your pet
 	> pet play
+	<br>
 	> pet fun
 *  Make it learn
 	> pet teach
+	<br>
 	> pet study
+	<br>
 	> pet lrn
+	<br>
 	> pet learn
 * Sleep 
 	> pet sleep
+	<br>
 	> pet bed
+	<br>
 	> pet zzz
 
 # Other Operations
@@ -45,13 +59,17 @@ First we need to generate a new pet:
 	> pet
 * Check the age
 	> pet age
+	<br>
 	> pet old
 * Cancel current activity
 	> pet cancel
+	<br>
 	> pet stop
+	<br>
 	> pet interrupt
 * Heal the pet (If it gets sick)
 	> pet heal
+	<br>
 	> pet medicine
 
 # Log file
