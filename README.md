@@ -20,45 +20,63 @@ pet new [PetName]
 # Take care of your pet
 * Feed your pet (All following commands are equivalent)
 ```bash
-	> pet feed
-	> pet eat
-	> pet food
-	> pet fd
+pet feed
+pet eat
+pet food
+pet fd
 ```
 * Clean your pet
-	> pet clean
-	> pet wash
-	> pet bath
-	> pet bathe
-	> pet cln
+```bash
+pet clean
+pet wash
+pet bath
+pet bathe
+pet cln
+```
 * Play with your pet
-	> pet play
-	> pet fun
+```bash
+pet play
+pet fun
+```
 *  Make it learn
-	> pet teach
-	> pet study
-	> pet lrn
-	> pet learn
+```bash
+pet teach
+pet study
+pet lrn
+pet learn
+```
 * Sleep 
-	> pet sleep
-	> pet bed
-	> pet zzz
+```bash
+pet sleep
+pet bed
+pet zzz
+```
 
 # Other Operations
 * Change the name of your pet
-	> pet rename [NewName]
+```bash
+pet rename [NewName]
+```
 * Check the status
-	> pet
+```bash
+pet
+```
 * Check the age
-	> pet age
-	> pet old
+```bash
+pet age
+pet old
+```
 * Cancel current activity
-	> pet cancel
-	> pet stop
-	> pet interrupt
+```bash
+pet cancel
+pet stop
+pet interrupt
+```
 * Heal the pet (If it gets sick)
-	> pet heal
-	> pet medicine
+```bash
+pet heal
+pet medicine
+```
 
 # Log file
 After each run, the log file would be updated in ~/.config/pet/default.state.json
