@@ -6,9 +6,10 @@ The configuration file is put in config/default.yml with some default settings. 
 The state values would slowly drop as time goes by, you can change the speed in yml file (end with 'mod'). The pet would be unhappy if states drop to certain values. It may also get sick -- it would die if it is sick for a long time! You can also change value increase after certain care behaviors.
 
 # Installation
-> git clone https://github.com/HelloJocelynLu/pet.git
-<br>
-> python setup.py install
+```bash
+git clone https://github.com/HelloJocelynLu/pet.git
+python setup.py install
+```
 
 # Setup
 First we need to generate a new pet:
